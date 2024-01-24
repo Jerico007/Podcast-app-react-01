@@ -1,0 +1,29 @@
+
+
+
+.NavBar{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+    gap: 25px;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+    border-radius: 40px;
+    margin-inline: 26vw;
+    box-shadow: inset 0px 0px 25px 5px #5050fd, 0px 0px 119px 28px #7575f6;
+}
+
+.NavBar a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.NavBar a:hover{
+    opacity: 1;
+}
+
+.NavBar .active{
+    opacity: 1;
+}
