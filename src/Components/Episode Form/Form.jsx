@@ -102,7 +102,7 @@ const Form = ({podcastId}) => {
   return (
     <div className="Form">
       <h1>Create An Episode</h1>
-      <form onSubmit={handelSubmit}>
+      <form onSubmit={handelSubmit} className="EpisodeForm">
         <Input
           type="text"
           onInput={(e) => {

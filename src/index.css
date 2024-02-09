@@ -113,7 +113,7 @@ body::-webkit-scrollbar-thumb {
   height: 17vh;
   color: rgba(255, 255, 255, 0.5);
 
-  word-break: break-all;
+  word-break: break-word;
 }
 
 .Pod-description::-webkit-scrollbar {
@@ -179,8 +179,6 @@ body::-webkit-scrollbar-thumb {
   justify-content: center;
 }
 
-
-
 .Profile-img {
   object-fit: cover;
   height: 200px;
@@ -194,8 +192,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 100%;
 }
 
-
-.Profile .Button-holder{
+.Profile .Button-holder {
   display: flex;
   gap: 2vw;
 }
@@ -232,5 +229,28 @@ body::-webkit-scrollbar-thumb {
 @media screen and (min-width: 320px) and (max-width: 500px) {
   .Podcasts-cards {
     gap: 5vw;
+  }
+
+  .Pod-banner img {
+    height: 30vh;
+  }
+
+  .EpisodeForm {
+    width: 80vw;
+  }
+
+  .Pod-title-button-holder {
+    display: flex;
+    align-items: center;
+    gap: 8vw;
+    justify-content: center;
+  }
+
+  .Pod-episodes {
+    align-items: center;
+  }
+
+  .Pod-episode {
+    align-items: center;
   }
 }

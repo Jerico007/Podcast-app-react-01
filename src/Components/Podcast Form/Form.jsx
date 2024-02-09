@@ -111,7 +111,7 @@ const Form = () => {
     return (
         <div className='Form'>
             <h1>Create A Podcast</h1>
-            <form onSubmit={handelSubmit}>
+            <form onSubmit={handelSubmit} className="PodcastForm">
             <Input type="text" onInput={(e)=>{formDispatch({type:"TITLE",payLoad:e.target.value})}} maxLength={20} value={formState.PodcastTitle} placeholder="Podcast Title"></Input>
             <Input type="text" onInput={(e)=>{formDispatch({type:"DESCRIPTION",payLoad:e.target.value})}} value={formState.PodcastDescription} placeholder="Podcast Description"></Input>
             <FileInput id={"Banner-img"}  name={"Banner"} accept={"image/*"} callback={formDispatch} />

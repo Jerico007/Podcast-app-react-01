@@ -1,5 +1,5 @@
 // React library
-import { useEffect } from "react";
+import { useEffect,lazy } from "react";
 // Navbar component
 import NavBar from "../Components/Navbar/NavBar";
 // Commmon component

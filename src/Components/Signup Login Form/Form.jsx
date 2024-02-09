@@ -195,7 +195,7 @@ const Form = () => {
   return (
     <div className="Form">
       <h1>{!isLogin ? "SignUp" : "LogIn"}</h1>
-      <form onSubmit={handelSubmit}>
+      <form onSubmit={handelSubmit} className="Signup">
         {!isLogin ? (
           <Input
             type={"text"}
