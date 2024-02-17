@@ -11,10 +11,11 @@ a {
   );
   border-radius: 20px;
   transition: all 0.5s ease;
+  
 }
 
 .PodcastCard:hover {
-  box-shadow: 0px 0px 10px 7px #e175f6;
+  box-shadow: -6px 6px 9px 5px #e175f6, 6px -6px 9px 5px #6688df;
   transform: scale(1.1);
 }
 
